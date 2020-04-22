@@ -1,0 +1,44 @@
+body{
+    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ3RXjq4hn6V1b4YeQKgfVk3Av1-tE_OZ11DC7D5nLlXpSsxwkW&usqp=CAU");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 30px;
+}
+nav>ul>li{
+    display: inline;
+    text-align: center;
+    color: rgb(7, 7, 126);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+}
+section {
+        height: 100vh;
+        border: 1px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+header{
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 59px;
+    line-height: 50px;
+    background-color:white;
+}
+header>.profile{
+    width:60px;
+}
+#frank> .myProfile{
+    width: 500px;
+    border-radius: 50%;
+}
