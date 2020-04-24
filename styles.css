@@ -4,7 +4,10 @@ body{
     background-size: cover;
     height: 100vh;
     font-family: 'Times New Roman', Times, serif;
-    margin-top: 30px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
 }
 nav>ul>li{
     display: inline;
@@ -12,6 +15,12 @@ nav>ul>li{
     color: rgb(7, 7, 126);
     font-family: 'Times New Roman', Times, serif;
     font-size: x-large;
+}
+a:link{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
 }
 section {
         height: 100vh;
@@ -34,11 +43,16 @@ header{
     height: 59px;
     line-height: 50px;
     background-color:white;
+    word-spacing: 5px;
+    text-transform: uppercase;
+    font-weight: bolder;
 }
 header>.profile{
     width:60px;
+    border-radius: 50%;
 }
 #frank> .myProfile{
     width: 500px;
+    height: 500px;
     border-radius: 50%;
 }
